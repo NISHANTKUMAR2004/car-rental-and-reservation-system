@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - Car Castel</title>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="logo CSE.png" alt="Car Rental Logo">
+        <h1>CAR CASTEL</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cars.html">Our cars</a></li>
+            <li><a href="support.html">Staffs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to reach out to us:</p>
+        
+        <address>
+            <strong>Car Rental System</strong><br>
+            Near LPU<br>
+            Phagwara, Punjab<br>
+            Email:bbgokulrajb@gmail.com <br>
+            Phone: 9597937752
+        </address>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button onclick="showAlert()">Submit</button>
+
+<script>
+    function showAlert() {
+        alert('Submitted Successfully');
+    }
+</script>
+        </form>
+    </section>
+</main><br><br><br>
+
+<footer>
+    <p>RIDE IN STYLE, RENT WITH US</p>
+</footer>
+
+</body>
+</html>
